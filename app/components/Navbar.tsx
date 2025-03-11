@@ -6,8 +6,8 @@ import Sidenav from "./Sidenav";
 export default function Navbar() {
   return (
     <div className="bg-white border-b-2 sticky">
-      <div className="flex items-center ">
-        <Link href='/'> <Image className="py-2 ml-5"
+      <div className="flex items-center justify-between px-10">
+        <Link href='/'> <Image className="py-2 m"
       src="/images/logo.png"
       alt="transparent logo"
       width={100}
