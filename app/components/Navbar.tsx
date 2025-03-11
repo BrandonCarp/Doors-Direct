@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import Link from "next/link";
+import Sidenav from "./Sidenav";
 
 export default function Navbar() {
   return (
@@ -13,7 +14,7 @@ export default function Navbar() {
       height={100}
        /></Link>
      <div>
-      <h1>HM</h1>
+      <Sidenav />
      </div>
       </div>
       
