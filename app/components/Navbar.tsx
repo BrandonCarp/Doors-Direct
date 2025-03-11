@@ -1,16 +1,20 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   return (
     <div className="bg-white border-b-2 sticky">
-      <div className="">
-      <Image className="p-3"
+      <div className="flex items-center ">
+        <Link href='/'> <Image className="py-2 ml-5"
       src="/images/logo.png"
       alt="transparent logo"
-      width={150}
+      width={100}
       height={100}
-       />
+       /></Link>
+     <div>
+      <h1>HM</h1>
+     </div>
       </div>
       
     </div>
